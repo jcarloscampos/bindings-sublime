@@ -1,0 +1,29 @@
+//CARACTERES ESPECIALES EN SUBLIME TEXT PARA TECLADO INGLÉS
+//Para incluir caracteres especiales como la 'ñ' o acentos en las palabras; basta con agregar el siguiente bloque de bindings, luego escribir Ctrl mas comilla simple (') ( Ctrl+'+ a ), sublime lo reemplazará por una 'a' acentuada (á).
+
+//Para agregar este bloque de bindings, se debe ir a: Preferences > Key Bindings - User y pegar el bloque.
+[	 
+	// - á - Á
+	{ "keys": ["ctrl+'","a"], "command": "insert", "args": {"characters": "á"}},
+	{ "keys": ["ctrl+'","A"], "command": "insert", "args": {"characters": "Á"}},
+
+	// - é - É
+	{ "keys": ["ctrl+'","e"], "command": "insert", "args": {"characters": "é"}},
+	{ "keys": ["ctrl+'","E"], "command": "insert", "args": {"characters": "É"}},
+
+	// -í - Í
+	{ "keys": ["ctrl+'","i"], "command": "insert", "args": {"characters": "í"}},
+	{ "keys": ["ctrl+'","I"], "command": "insert", "args": {"characters": "Í"}},
+
+	// - ó - Ó
+	{ "keys": ["ctrl+'","o"], "command": "insert", "args": {"characters": "ó"}},
+	{ "keys": ["ctrl+'","O"], "command": "insert", "args": {"characters": "Ó"}},
+
+	// - ú - ü - Ú - Ü
+	{ "keys": ["ctrl+'","u"], "command": "insert", "args": {"characters": "ú"}},
+	{ "keys": ["ctrl+'","U"], "command": "insert", "args": {"characters": "Ú"}},
+	
+	// - ñ - Ñ
+	{ "keys": ["ctrl+'","n"], "command": "insert", "args": {"characters": "ñ"}},
+	{ "keys": ["ctrl+'","N"], "command": "insert", "args": {"characters": "Ñ"}},
+]
